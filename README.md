@@ -8,7 +8,7 @@ Phonebook is created using
 * Phpmyadmin
 * Node server
 ### Installation
-I used VS code for Ubuntu to build this projet but you can use your desired platform.
+I used VS code for Ubuntu to build this project but you can use your desired platform.
 #### For MYSQL server
 Open your terminal and write following commands:
 ```console
