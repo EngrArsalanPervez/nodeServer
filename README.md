@@ -37,7 +37,6 @@ Login to MYSQL server by running:
 ```console
 sudo mysql -u root -p
 ```
-![image](https://user-images.githubusercontent.com/103660705/191685799-e9a43ab9-bf8c-4882-8d73-f9675d6be978.png)
 
 #### For Apache server
 * To install apache server type:
