@@ -86,6 +86,34 @@ node --version
 sudo apt install npm
 npm --version
 ```
+#### Installing other dependencies
+* To install other dependencies type following commands in the terminal of VS code:
+```console
+npm install express
+npm install body-parser
+```
+#### Running the PhoneBook.js project
+* I used VS code to run the code, you can use your desired platform.
+* Open VS code and navigate to PhoneBook.js
+In the terminal type the following command:
+```console
+node Phonebook.js
+```
+* You will get following result:
+![image](https://user-images.githubusercontent.com/103660705/191757587-ee8129b1-f2dc-40f9-a467-8d4949907008.png)
+
+
+* Now open your desired browser and type:
+```console
+localhost:3000/PhoneBook
+```
+You will get following result:
+![image](https://user-images.githubusercontent.com/103660705/191757662-68c4d4d0-ac94-4d27-8fa3-15786844382f.png)
+
+
+* Now open the VS code again and check the Terminal
+* The data will also be displayed there.
+![image](https://user-images.githubusercontent.com/103660705/191757714-7684ca94-f037-41fe-b67e-99d8ccc2e0d6.png)
 
 
 
