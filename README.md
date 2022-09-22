@@ -50,6 +50,8 @@ service apache
 service apcache2 status
 ```
 * You can use your browser to check it by typing your IP address.
+![image](https://user-images.githubusercontent.com/103660705/191691829-c6539159-3455-436a-8b36-38588c0de89f.png)
+
 
 #### For phpmyadmin installation:
 * First install php using following command:
@@ -64,7 +66,11 @@ sudo apt install phpmyadmin
 * Select No for configuring database.
 * To check if phhpmyadmin is installed or not, open your browser and type:
 * (Your IPaddress)/phpmyadmin
+![image](https://user-images.githubusercontent.com/103660705/191691995-e02cee76-6eab-4e27-af19-20e23be8b486.png)
+
 * You can use your username and password from MYSQL to login.
+![image](https://user-images.githubusercontent.com/103660705/191692046-d6e0c80f-d1b4-4fb6-a3a1-4cf9bf6e0b4c.png)
+
 
 
 
