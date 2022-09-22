@@ -37,7 +37,32 @@ Login to MYSQL server by running:
 ```console
 sudo mysql -u root -p
 ```
+##### For Apache server
+* To install apache server type:
+``` console
+sudo apt install apache2
+```
+* You can check if it's active or not by following command:
+``` console
+service apache
+service apcache2 status
+```
+* You can use your browser to check it by typing your IP address.
 
+###### For phpmyadmin installation:
+* First install php using following command:
+``` console
+sudo apt install php
+```
+* For phpmyadmin:
+``` console
+sudo apt install phpmyadmin
+```
+* You will be prompted to select a server, hit space and press enter for apache2.
+* Select No for configuring database.
+* To check if phhpmyadmin is installed or not, open your browser and type:
+* (Your IPaddress)/phpmyadmin
+* You can use your username and password from MYSQL to login.
 
 
 
