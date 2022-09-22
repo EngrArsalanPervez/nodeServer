@@ -71,6 +71,22 @@ sudo apt install phpmyadmin
 * You can use your username and password from MYSQL to login.
 ![image](https://user-images.githubusercontent.com/103660705/191692046-d6e0c80f-d1b4-4fb6-a3a1-4cf9bf6e0b4c.png)
 
+#### NODE SERVER INSTALLATION
+* Type the following command to install node.js server:
+```console
+sudo apt install nodejs
+```
+* Verify your installation using command:
+```console
+node --version
+```
+* It is also important to install Node Package Manager(npm) with Node.js.
+* To install NPM and verify the installation, type the following commands:
+```console
+sudo apt install npm
+npm --version
+```
+
 
 
 
