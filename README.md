@@ -37,7 +37,7 @@ Login to MYSQL server by running:
 ```console
 sudo mysql -u root -p
 ```
-##### For Apache server
+#### For Apache server
 * To install apache server type:
 ``` console
 sudo apt install apache2
@@ -49,7 +49,7 @@ service apcache2 status
 ```
 * You can use your browser to check it by typing your IP address.
 
-###### For phpmyadmin installation:
+#### For phpmyadmin installation:
 * First install php using following command:
 ``` console
 sudo apt install php
