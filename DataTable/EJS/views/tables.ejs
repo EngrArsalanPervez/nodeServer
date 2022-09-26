@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneBook</title>
+    <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Contact</th>
+            </tr>
+            <tbody>
+                <% result.forEach(function(r){ %>
+                    <tr>
+                        <td><%=r.PersonID %></td>
+                        <td><%=r.Name %></td>
+                        <td><%=r.ContactNum%></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </thead>
+    </table>
+    
+</body>
+<script
+			  src="https://code.jquery.com/jquery-3.6.1.min.js"
+			  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			  crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+    $('.table').DataTable();
+});
+</script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js">
+    </script>
+</html>
