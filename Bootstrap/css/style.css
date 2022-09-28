@@ -1,0 +1,126 @@
+a:hover{
+    text-decoration: none;
+}
+#header{
+    color: white;
+    background: #3498db;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color:black;
+    text-align: center;
+    margin-bottom: 40px;  
+}
+.section h2.section-head:after{
+background: #3498db;
+content: "";
+display: block;
+width: 100px;
+height:3px;
+margin: 20px auto;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{ 
+    color: white;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover{ 
+    background: #2980b9;
+}
+#para{
+    background: blanchedalmond;
+}
+#Footer{
+    background: blue;
+}
+#banner{
+    background: url(../images/bg-First.jpg) no-repeat 0 0;
+    background-size: cover; 
+
+}
+.banner-title {
+padding-top: 5rem;
+
+}
+.banner-title h1.title{
+    background: rgba(255,255,255,0.5);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color:white;
+    background: rgba(41, 128, 185,0.8);
+    padding: 10px;
+}
+.service-box{
+    text-align:center
+}
+.service-box i.fa{
+    color: #3498db;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonials{
+    background: url(../images/bg.jpg) no-repeat 0 0;
+    background-size: cover; 
+    padding:50px 0;
+    position:relative;
+}
+#testimonials:before{
+    background: rgba(127, 140, 141,0.7);
+    content: "";
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.testimonial img{
+    border-radius:50%;
+}
+#footer-sidebar{
+    color: white;
+    background:rgba(52, 73, 94,1.0);
+    padding: 20px 0;
+}
+.footer-widget h4:after{
+    content:"";
+    background: white;
+    display: block;
+    width :50px;
+    height:2px;
+    margin:5px 0;
+}
+.footer-widget a{
+color:white;
+}
+.news{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.news li{
+    margin-bottom: 3px;
+    
+}
+#footer{
+    color:white;
+    padding:10px 0;
+    background: rgba(44, 62, 80,1.0);
+}
