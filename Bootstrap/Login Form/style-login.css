@@ -7,10 +7,13 @@ body {
     text-align: center;
 }
 
-.col-md-5 {
+.col-md-5,
+.col-sm-8,
+.col-12 {
     background: white;
     text-align: center;
-    margin-left: 326px;
+    border: 5px solid rgb(227, 228, 243);
+    border-radius: 5%;
 }
 
 .container i.fa {
@@ -18,12 +21,6 @@ body {
     font-size: 70px;
 }
 
-.form-control-inline a.a {
+.form-control-inline a {
     color: white;
-    margin-left: 325px;
-}
-
-.form-control-inline a.b {
-    color: white;
-    margin-left: 225px;
 }
