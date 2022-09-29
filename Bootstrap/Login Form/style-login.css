@@ -1,0 +1,29 @@
+body {
+    background: #44a5e6;
+}
+
+.msg {
+    color: white;
+    text-align: center;
+}
+
+.col-md-5 {
+    background: white;
+    text-align: center;
+    margin-left: 326px;
+}
+
+.container i.fa {
+    color: white;
+    font-size: 70px;
+}
+
+.form-control-inline a.a {
+    color: white;
+    margin-left: 325px;
+}
+
+.form-control-inline a.b {
+    color: white;
+    margin-left: 225px;
+}
