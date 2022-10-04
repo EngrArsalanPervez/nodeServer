@@ -14,10 +14,6 @@ Open your terminal and write following commands:
 ```console
 sudo apt update
 ```
-```c#
-public class tanveer
-```
-
 
 ```console
 sudo apt upgrade
