@@ -1,0 +1,52 @@
+.main-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.service-box {
+    text-align: center;
+}
+
+#side_nav {
+    background: rgb(219, 223, 224);
+
+}
+
+.sidebar {
+    width: 17rem;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-right: 1px solid #eee;
+}
+
+.sidebar a {
+    text-indent: 20px;
+}
+
+.sidebar li a.active {
+    color: white;
+    background: rgb(28, 123, 179);
+}
+
+.sidebar li a.hov:hover {
+    background: #b6bcc0;
+}
